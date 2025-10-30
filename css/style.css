@@ -5,10 +5,14 @@ body {
   display: flex;
   flex-direction: column;
   border: 1px solid none;
+  width: 1300px;
+  height: 60px;
 }
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -23,7 +27,7 @@ h1 {
 
 h2 {
   color: #2e2f42;
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -31,7 +35,19 @@ h2 {
   text-align: center;
   text-transform: capitalize;
 }
+.header-list {
+  position: relative;
+  min-width: 1440px;
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
+  background-color: #ffff;
+  margin: 0px auto;
+}
 
+.header-list .container {
+  display: flex;
+  margin: 0px auto;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -48,6 +64,11 @@ h2 {
   color: #2e2f42;
 }
 
+.header-list .container .header-all .menu {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -58,26 +79,6 @@ h2 {
 .container .header-all {
   display: flex;
   align-items: center;
-}
-
-.header-list {
-  position: relative;
-  min-width: 1440px;
-  height: 72px;
-  border-bottom: 1px solid #e7e9fc;
-  background-color: #ffff;
-  margin: 0px auto;
-}
-
-.header-list .container {
-  display: flex;
-  margin: 0px auto;
-}
-
-.header-list .container .header-all .menu {
-  display: flex;
-  gap: 40px;
-  list-style-type: none;
 }
 
 .menu .menulist {
@@ -324,7 +325,13 @@ p {
   margin-bottom: 8px;
 }
 
-.our-team .container .team-list .team-pic .team-list-container .team-pic-title .team-pic-parag {
+.our-team
+  .container
+  .team-list
+  .team-pic
+  .team-list-container
+  .team-pic-title
+  .team-pic-parag {
   text-align: center;
 }
 
