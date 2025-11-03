@@ -8,6 +8,18 @@ body {
   width: 1300px;
   height: 60px;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 img {
   display: block;
@@ -277,12 +289,8 @@ p {
   text-align: center;
   display: flex;
   margin-bottom: 72px;
+  padding-bottom: 0px;
   border: 1px solid none;
-}
-
-.our-team .team-pic {
-  background-color: #ffffff;
-  list-style-type: none;
 }
 
 .our-team .team-pic .team-pic-title {
@@ -305,6 +313,7 @@ p {
   gap: 24px;
   border: 1px solid none;
   flex-basis: calc((100% - 72px) / 4);
+  padding-left: 0px;
 }
 
 .our-team .container .team-list .team-pic {
@@ -312,7 +321,9 @@ p {
   display: inline-block;
   text-align: center;
   background-color: #ffff;
+  border: 1px solid none;
   border-radius: 0px 0px 4px 4px;
+  padding: 32px 0;
 }
 
 .our-team .container .team-list .team-pic .team-list-container {
@@ -337,7 +348,6 @@ p {
 
 .our-port {
   padding: 120px 0;
-  display: flex;
   flex-direction: column;
   text-align: center;
 }
@@ -346,6 +356,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .our-port .container .port-title {
@@ -370,12 +381,14 @@ p {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  border-radius: 6px;
 }
 
 .our-port .container .port-ul.port-pic.port-ul-container {
   flex-basis: calc((100% - 72px) / 4);
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
   margin-bottom: 8px;
 }
 
@@ -392,6 +405,8 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 100%;
+  height: 100%;
   margin-bottom: 8px;
 }
 
