@@ -2,11 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffff;
-  display: flex;
-  flex-direction: column;
   border: 1px solid none;
-  width: 1300px;
-  height: 60px;
 }
 p,
 h1,
@@ -23,8 +19,6 @@ ul {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 h1 {
@@ -47,19 +41,6 @@ h2 {
   text-align: center;
   text-transform: capitalize;
 }
-.header-list {
-  position: relative;
-  min-width: 1440px;
-  height: 72px;
-  border-bottom: 1px solid #e7e9fc;
-  background-color: #ffff;
-  margin: 0px auto;
-}
-
-.header-list .container {
-  display: flex;
-  margin: 0px auto;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -75,12 +56,28 @@ h2 {
 .logosp {
   color: #2e2f42;
 }
+.header-list {
+  position: relative;
+  min-width: 1440px;
+  border-bottom: 1px solid #e7e9fc;
+  background-color: #ffff;
+  margin: 0px auto;
+}
+
+.header-list .container {
+  margin: 0px auto;
+}
 
 .header-list .container .header-all .menu {
   display: flex;
   gap: 40px;
   list-style-type: none;
 }
+.header-list .container .header-all .menu .menu-li .menulist {
+  padding: 24px 0;
+  text-decoration: none;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -164,7 +161,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 188px;
+  padding: 188px 0;
   max-width: 1440px;
 }
 
@@ -180,7 +177,6 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   display: flex;
-  max-width: 496px;
 }
 
 .hero-image .container .hero-button {
@@ -191,9 +187,10 @@ h2 {
   letter-spacing: 0.04em;
   cursor: pointer;
   display: block;
+  margin: 0 auto;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 10px;
+  border: none;
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
@@ -220,12 +217,13 @@ p {
 .feature {
   display: flex;
   justify-content: center;
+  padding: 120px 0;
 }
 
 .feature .container .feature-list {
   display: flex;
   list-style-type: none;
-  gap: 8px;
+  gap: 24pxpx;
 }
 
 .feature .container .feature-list .feature-one {
@@ -276,7 +274,6 @@ p {
 .our-team .container {
   display: flex;
   align-items: center;
-  padding: 32px 0;
   flex-direction: column;
 }
 
@@ -289,7 +286,7 @@ p {
   text-align: center;
   display: flex;
   margin-bottom: 72px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   border: 1px solid none;
 }
 
@@ -327,8 +324,8 @@ p {
 }
 
 .our-team .container .team-list .team-pic .team-list-container {
-  text-align: center;
   padding: 32px 0;
+  text-align: center;
 }
 
 .our-team .container .team-list .team-pic .team-list-container .team-pic-title {
@@ -348,7 +345,6 @@ p {
 
 .our-port {
   padding: 120px 0;
-  flex-direction: column;
   text-align: center;
 }
 
@@ -357,6 +353,7 @@ p {
   flex-direction: column;
   text-align: center;
   margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .our-port .container .port-title {
@@ -390,14 +387,17 @@ p {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  width: 360px;
+  height: 120px;
 }
 
 .our-port .port-pic .port-pic-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  height: 24px;
 }
 
 .our-port .port-pic .port-pic-parag {
@@ -405,8 +405,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 100%;
-  height: 100%;
+  height: 24px;
   margin-bottom: 8px;
 }
 
