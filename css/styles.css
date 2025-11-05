@@ -163,6 +163,7 @@ h2 {
   align-items: center;
   padding: 188px 0;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-image .container {
@@ -190,6 +191,7 @@ h2 {
   margin: 0 auto;
   justify-content: flex-start;
   flex-direction: row;
+  margin-top: 48px;
   border: none;
   border-radius: 4px;
   min-width: 169px;
@@ -223,7 +225,7 @@ p {
 .feature .container .feature-list {
   display: flex;
   list-style-type: none;
-  gap: 24pxpx;
+  gap: 24px;
 }
 
 .feature .container .feature-list .feature-one {
@@ -320,7 +322,6 @@ p {
   background-color: #ffff;
   border: 1px solid none;
   border-radius: 0px 0px 4px 4px;
-  padding: 32px 0;
 }
 
 .our-team .container .team-list .team-pic .team-list-container {
@@ -346,14 +347,17 @@ p {
 .our-port {
   padding: 120px 0;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .our-port .container {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: start;
   margin-bottom: 8px;
   margin-bottom: 72px;
+  gap: 8px;
 }
 
 .our-port .container .port-title {
@@ -362,7 +366,7 @@ p {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: start;
   text-transform: capitalize;
   display: flex;
   border: 1px solid none;
@@ -373,7 +377,7 @@ p {
 .our-port .container .port-ul {
   list-style: none;
   display: flex;
-  text-align: center;
+  text-align: start;
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -384,7 +388,9 @@ p {
 .our-port .container .port-ul.port-pic.port-ul-container {
   flex-basis: calc((100% - 72px) / 4);
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
   width: 360px;
