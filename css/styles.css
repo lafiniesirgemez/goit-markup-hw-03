@@ -383,6 +383,15 @@ p {
   column-gap: 24px;
   row-gap: 48px;
   border-radius: 6px;
+  margin-top: 72px;
+}
+.port-ul-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #e7e9fc;
 }
 
 .our-port .container .port-ul.port-pic.port-ul-container {
@@ -395,6 +404,7 @@ p {
   margin-bottom: 8px;
   width: 360px;
   height: 120px;
+  text-align: left;
 }
 
 .our-port .port-pic .port-pic-title {
@@ -404,6 +414,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   height: 24px;
+  margin-bottom: 8px;
+  margin-top: 32px;
 }
 
 .our-port .port-pic .port-pic-parag {
@@ -412,7 +424,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   height: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 32px;
 }
 
 .footer {
@@ -425,8 +437,7 @@ p {
   align-items: center;
 }
 
-.footer .container,
-a {
+.footer .container a {
   display: inline-block;
 }
 
